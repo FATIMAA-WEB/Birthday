@@ -19,7 +19,7 @@ body {
     height: 100vh; /* Full height of the viewport */
     width: 100%;
     display: flex;
-    filter: blur(150px);
+    
 }
 
 .container {
