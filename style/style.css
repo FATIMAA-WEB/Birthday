@@ -4,22 +4,17 @@ html {
 
 body {
     font-family: "Work Sans", sans-serif;
-}
-
-.content {
-    z-index: 1; /* Bring content in front */
+    background-image: url('../bg.jpg')
 }
 
 .container {
     height: 100vh;
     width: 100vh;
+    margin: 0 auto;
+    text-align: center;
     visibility: hidden;
+    position: relative;
     overflow: hidden;
-}
-
-.container::before {
-    content: '';
-    background-image: url('../bg.jpg'); /* Use a suitable image */
 }
 
 .container div.six {
