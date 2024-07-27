@@ -17,6 +17,16 @@ body {
     display: flex;
 }
 
+.content {
+    position: relative;
+    z-index: 1; /* Bring content in front */
+    color: white; /* Text color */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
 .container {
     height: 100vh;
