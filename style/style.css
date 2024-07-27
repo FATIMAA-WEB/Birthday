@@ -6,15 +6,12 @@ body {
     font-family: "Work Sans", sans-serif;
     height: 100%; /* Full height of the viewport */
     width: 100%;
-    margin: 0;
 }
 
 .content {
     position: relative;
     z-index: 1; /* Bring content in front */
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container {
@@ -33,11 +30,6 @@ body {
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     filter: blur(8px); /* Apply blur effect */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     z-index: -1; /* Send to back */
 }
 
