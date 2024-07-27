@@ -6,21 +6,6 @@ html {
     width: 100%;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    font-family: "Work Sans", sans-serif;
-    background-image: url(../bg.jpg);
-    background-size: cover;
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 100vh; /* Full height of the viewport */
-    width: 100%;
-    display: flex;
-    
-}
 
 .container {
     height: 100vh;
