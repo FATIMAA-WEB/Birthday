@@ -12,10 +12,6 @@ body {
     height: 100%;
     width: 100%;
     font-family: "Work Sans", sans-serif;
-    background-image: url(../bg.jpg);
-    background-size: cover;
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
     height: 100%; /* Full height of the viewport */
     width: 100%;
     display: flex;
@@ -30,6 +26,21 @@ body {
     visibility: hidden;
     position: relative;
     overflow: hidden;
+}
+
+.container::before {
+    content: '';
+    background-image: url('../bg.jpg'); /* Use a suitable image */
+    background-size: cover; /* Makes the image cover the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    filter: blur(8px); /* Apply blur effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Send to back */
 }
 
 .container div.six {
