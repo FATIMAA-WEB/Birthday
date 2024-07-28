@@ -16,8 +16,6 @@ body {
     visibility: hidden;
     position: relative;
     overflow: hidden;
-    background-image: url('../bg.jpg');
-    background-size: cover; /* Makes the image cover the entire container */
 }
 
 
