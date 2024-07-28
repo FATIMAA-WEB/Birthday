@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: "Work Sans", sans-serif;
     background-image: url(../bg.jpg);
+    background-size: cover;
 }
 
 .container {
