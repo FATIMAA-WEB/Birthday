@@ -5,9 +5,8 @@ html {
 body {
     margin: 0;
     font-family: "Work Sans", sans-serif;
-    background-image: url('../bg.jpg');
-    background-size: cover; /* Makes the image cover the entire container */
 }
+
 
 .container {
     height: 100vh;
@@ -17,6 +16,11 @@ body {
     visibility: hidden;
     position: relative;
     overflow: hidden;
+}
+
+.container div.bg {
+    background-image: url('../bg.jpg');
+    background-size: cover; /* Makes the image cover the entire container */
 }
 
 .container div.six {
